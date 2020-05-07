@@ -1,0 +1,10 @@
+DI:
+Objective type dependencies: are just helper objects / other objects needed by our class to perform its operations
+instead of us making the object and inject dependencies Spring framework will do that for us, and give us a ready to use object
+
+there are a lot in Injection methods
+1- Constructor Injection
+2- Setter Injection
+
+
+Container gives us a fully assembled bean/object (with all dependencies injected)

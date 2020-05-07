@@ -1,0 +1,3 @@
+1 create the properties file (in name and value pairs )
+2 load the properties file in Spring config file <context:property-placeholder location="classpath:file.properties"/> / it loads the file to memory so we can use it in our config file
+3 reference values from properties file value ="${teacher.name}"

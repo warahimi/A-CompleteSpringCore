@@ -1,0 +1,20 @@
+IoC:
+Spring provides us an Object Factory our app can talk to the Spring Object Factory and ask for Objects/beans
+Spring Object Factory will give us the apropraite implementation object base on Configuration file / Annotation 
+this make our app configurable.
+
+The primary functions of Spring Containers:
+1- Creates and Manages object (IoC)
+2- Inject object`s dependency (DI)
+
+There are 3 ways of Configuring Spring Container:
+1- XML config file (legacy, but most legacy apps still use this)
+2- Java Annotation (Modern)
+3- Java Source Code (Modern)  // we can gid rid of all config files using this technique
+
+
+Steps:
+1- Configure the Spring Beans
+2- Configure Spring Container (ApplicationContext)
+3- Retrieve Beans from Spring Container and use
+

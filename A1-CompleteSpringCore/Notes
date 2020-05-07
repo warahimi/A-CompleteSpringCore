@@ -1,0 +1,8 @@
+Softwares Required: Java 8 or above, Appachi tomcate server
+Connect tomcat to Eclips : to easily deploy applications to tomcate
+
+IoC : the approach of outsourcing the construction and management of object. that outsourcing will be hundeled
+by an ojbect factory. (application context ...)
+- to make our application configurable : so that our dependcies should work with any type of implementation 
+with our touching the source code. (using interface), loose coupling
+Java classes are called POJOs
