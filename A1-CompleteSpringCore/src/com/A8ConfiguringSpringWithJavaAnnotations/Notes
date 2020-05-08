@@ -1,0 +1,33 @@
+Configuring Beans with Java Annotations
+Annotations are silply special labels/markers added to our Java classes. and gives us meta data about the class
+
+Why to use Annotation. if we have big projects and a lot of beans and injections then it would be very difficult to 
+configure everything in xml file.
+instead we can simply configure our Spring beans with annotations and minimize the XML configurations 
+
+when we add annotations to our classes then Spring will scan all the package and classes for the annotations
+if it found any class with Spring annotation it will automatically configure the bean with Spring container
+using this approach Spring will do most of the work for us in the background .. instead of us configuring them 
+all in XML file
+
+Steps:
+just Enable component scanning in xml config file .Spring will scan the basepackage and all subpackages to find annotations
+
+@Atowired: used to inject objective type depedency, spring will lool for a class that matches the property/objective type dependency name
+it match by type, once spring fine a match then it automatically injected it, hence it is called autowired
+@Atowiring Types: 
+1- Constructor Injection
+2- Setter Injection
+3- Field Injection
+
+or we inject values by our own custom methods by puting @Autowired befor our method name
+
+Note if we have multipe implementations of objective type , then we can use the @Qualifier to specify speicific implementation
+ 
+ @Value : is used for literal value injection
+ 
+ @Scope("singletone") can be used befor the class name to specify the beans scope
+ @Scope("prototype")
+ 
+ for Bean life cycles:
+ @PostConstruct @PreDestroy

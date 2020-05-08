@@ -1,0 +1,10 @@
+Bean Scopes: in Spring
+Scope referes to the life cycle of a bean. How long does the bean live?
+Howmany instances will be created, and how the bean is shared in the Spring Environment 
+
+The default scope for a bean is Singleton: means spring container creates only one instance of the bean 
+it is cashed in the memory and all requests to the getBean() will return the same SHARED bean.
+there is only one bean and every one will share it
+
+we can explicitly define the bean scope using the scope="" attribute
+

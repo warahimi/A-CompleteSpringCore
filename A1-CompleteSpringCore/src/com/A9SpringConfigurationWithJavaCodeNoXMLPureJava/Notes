@@ -1,0 +1,6 @@
+Note: There are 3 ways of Configuring Spring Container
+1-Full XML configuration
+2-XML Component-Scan and some Java Annotation (makes xml smaller)
+3-Java Configuration Class (no xml)
+
+-

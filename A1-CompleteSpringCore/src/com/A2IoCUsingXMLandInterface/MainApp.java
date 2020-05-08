@@ -7,7 +7,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("A2.xml");
-		Teacher teacher = context.getBean("teach", Teacher.class);
+		Teacher teacher = context.getBean("teacher", Teacher.class);
 		teacher.Teach();
 
 	}
